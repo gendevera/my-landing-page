@@ -5,7 +5,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-/* header css */
+/* header section */
 
 .header {
     background-color: #1f2937;
@@ -69,3 +69,55 @@ button {
     align-self: flex-start;
 }
 
+/* information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 80px;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: min-content;
+    align-items: center;
+    gap: 5px;
+}
+
+.items img {
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+/* quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: #E5e7eb;
+}
