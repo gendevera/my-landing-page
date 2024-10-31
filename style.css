@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 80px;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .header-logo {
@@ -43,7 +43,7 @@ a, .hero-secondary {
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .hero-main {
