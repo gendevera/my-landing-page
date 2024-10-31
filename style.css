@@ -113,11 +113,29 @@ button {
 
 /* quote section */
 
+.quote-container {
+    padding: 80px 100px;
+    background-color: #E5e7eb;
+    display: flex;
+    justify-content: center;
+}
 .quote {
     display: flex;
     flex-direction: column;
+    max-width: 800px;
     align-items: center;
-    justify-content: center;
-    padding: 80px 0;
-    background-color: #E5e7eb;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    align-self: center;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 20px;
 }
