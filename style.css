@@ -43,7 +43,7 @@ a, .hero-secondary {
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    /* flex: 1; */
+    flex: 1;
 }
 
 .hero-main {
@@ -52,6 +52,10 @@ a, .hero-secondary {
     font-weight: 900;
 }
 
+/* .hero-image {
+    object-fit: cover;
+} */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -59,7 +63,7 @@ a, .hero-secondary {
     width: 500px;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     padding: 5px 20px;
     border-radius: 8px;
@@ -138,4 +142,50 @@ button {
     font-weight: bold;
     align-self: flex-end;
     padding: 20px;
+}
+
+/* call to action section */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.cta-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 30px 100px;
+    width: 1000px;
+    border-radius: 8px;
+}
+
+.words-1 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.words-2 {
+    font-size: 12px;
+}
+
+.cta-button {
+    color:#f9faf8;
+    border-width: 2px;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 100px;
 }
