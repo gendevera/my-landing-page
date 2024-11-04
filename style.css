@@ -44,6 +44,8 @@ a, .hero-secondary {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    max-height: 200px;
+    gap: 60px;
 }
 
 .hero-main {
@@ -52,9 +54,11 @@ a, .hero-secondary {
     font-weight: 900;
 }
 
-/* .hero-image {
+.hero-image {
+    flex: 1 1 auto;
     object-fit: cover;
-} */
+    /* object-fit: contain; */
+}
 
 .hero {
     display: flex;
